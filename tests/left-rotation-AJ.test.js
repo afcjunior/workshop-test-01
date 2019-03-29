@@ -40,9 +40,14 @@ const { caseOne, caseTwo, caseThree, caseFour } = {
   },
 }
 
-describe('leftRotation([], D) - Receives an array of size (1 <= N <= 10ˆ5), rotates it (1 <= D <= N) times to the left, and returns the input value post D rotation(s), separated by spaces.', () => {
+describe(
+  'leftRotation([], D) - Receives an array of size (1 <= N <= 10ˆ5), rotates it \
+  (1 <= D <= N) times to the left, and returns the input value post D rotation(s), \
+  separated by spaces.', () => {
 
-  it('Should only receive valid input values, contained within the defined constraints', () => {
+  it(
+    'Should only receive input values contained within the set constraints',
+    () => {
 
     // test if the input Array.Length is between 1 and 1.000.000
 
@@ -51,7 +56,8 @@ describe('leftRotation([], D) - Receives an array of size (1 <= N <= 10ˆ5), rot
     // test for  <= a*i* <= 10^6, whatever the hell this is. Ask david?
   });
 
-  it('Should output a string of space-separated ints, having as many values as the input array\'s length.', () => {
+  it('Should output a string of space-separated ints, with as many values as \
+  the input array\'s length.', () => {
 
     // test if the output is a string of ints separated by spaces
 
